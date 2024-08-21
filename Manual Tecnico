@@ -1,0 +1,27 @@
+Manual Técnico:
+
+1.	HTML (index.html):
+o	La página tiene un campo de entrada numérico (<input>) donde el usuario ingresa su edad.
+o	El botón (<button>) permite al usuario verificar si es elegible para votar.
+o	El mensaje con el resultado se muestra en el artículo (<article>) con el id mensaje.
+
+2.	CSS (estilos.css):
+o	El diseño de la página utiliza un fondo morado claro con un título centrado y estilizado.
+o	La sección principal está estilizada para destacarse visualmente con bordes redondeados y una sombra suave.
+o	El mensaje de resultado se muestra en un color púrpura oscuro.
+
+3.	JavaScript (script.js):
+o	Se obtienen los elementos del DOM (botonVerificar, campoEdadUsuario, 
+    contenedorMensaje) usando getElementById.
+o	Se agrega un eventListener al botón que escucha el evento click.
+o	Al hacer clic, se obtiene el valor del campo de entrada (campoEdadUsuario.value),
+    se convierte a entero usando parseInt, y se almacena en la variable edad.
+o	Se utilizan condicionales if-else para determinar si el usuario es mayor de 18 años:
+	Si edad es mayor o igual a 18, se muestra un mensaje indicando que puede votar.
+	Si edad es menor a 18 pero mayor que 0, se indica que no es elegible.
+	Si se ingresa un número inválido (como 0 o menos), se muestra un mensaje solicitando una edad válida.
+
+Este ejercicio introduce el uso de condicionales en JavaScript para realizar verificaciones y
+tomar decisiones basadas en la entrada del usuario.
+
+Github:
